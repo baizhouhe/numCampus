@@ -10,7 +10,7 @@ import lombok.Data;
 public class GraduateNum {
 
     /**
-     * 主键id
+     * 毕业证书号id
      */
     @TableId(type = IdType.AUTO)
     private  int id;
