@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @TableName("t_class")
-public class Class {
+public class Clazz {
 
     /**
      * 主键ID
