@@ -6,28 +6,29 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 @Data
-@TableName("t_graduate_num")
-public class GraduateNum {
+@TableName("t_discipline")
+public class Discipline {
 
-    /**
-     * 毕业证书号id
-     */
     @TableId(type = IdType.AUTO)
-    private  int id;
+    private Integer id;
+
     /**
      * 学号
      */
-    private String sno;
+    private String studentSno;
+
     /**
-     * 姓名
+     * 考试科目ID
      */
-    private String name;
+    private Integer examCourseId;
+
     /**
-     * 毕业证号
+     * 违纪详情
      */
-    private String graduateNum;
+    private String badDetail;
+
     /**
-     * 学位证号
+     * 审核人
      */
-    private String degreeNum;
+    private String checkMan;
 }
