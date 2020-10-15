@@ -56,4 +56,5 @@ public class Student {
      * 班级ID
      */
     private Integer classId;
+
 }
