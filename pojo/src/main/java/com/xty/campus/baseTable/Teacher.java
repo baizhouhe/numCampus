@@ -1,4 +1,4 @@
-package com.xty.campus;
+package com.xty.campus.baseTable;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
