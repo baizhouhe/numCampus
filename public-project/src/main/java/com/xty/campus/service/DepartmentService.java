@@ -1,4 +1,4 @@
-package com.xty.campus.mapper.service;
+package com.xty.campus.service;
 
 public interface DepartmentService {
 
