@@ -11,6 +11,13 @@
 
     <artifactId>public-project</artifactId>
     <dependencies>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     <!--nacos-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
