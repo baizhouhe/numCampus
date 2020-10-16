@@ -10,7 +10,7 @@
     <modules>
         <module>pojo</module>
         <module>user</module>
-        <module>base</module>
+        <module>public-project</module>
     </modules>
     <packaging>pom</packaging>
 
