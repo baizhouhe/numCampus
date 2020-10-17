@@ -12,6 +12,7 @@
         <module>user</module>
         <module>public-project</module>
         <module>common</module>
+        <module>test-question</module>
     </modules>
     <packaging>pom</packaging>
 

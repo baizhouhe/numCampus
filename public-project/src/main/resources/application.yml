@@ -1,6 +1,6 @@
 spring:
   application:
-    name: public-poject
+    name: public-poject-bai
   datasource:
     url: jdbc:mysql://192.168.115.31:3306/campus_base?useUnicode=true&characterEncoding=UTF8
     password: 123456
@@ -9,7 +9,8 @@ spring:
 
   cloud:
     nacos:
-      server-addr: 192.168.220.1:8848
+      discovery:
+        server-addr: 192.168.115.31:8848
   jpa:
     show-sql: true
 

@@ -34,6 +34,10 @@ public class SchoolNotice {
      */
     private String createTime;
     /**
+     * 更新时间
+     */
+    private String updateTime;
+    /**
      * 发布院校
      */
     private String pushDepartment;
